@@ -1,0 +1,12 @@
+li{
+    background-image: url("../images/unchecked-checkbox.png") ;
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    padding-left: 20px;
+}
+.checked{
+    background-image: url("../images/dd382c81fddeedaecc3866575cbd3c.png") ;
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    padding-left: 20px;
+}
