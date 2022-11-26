@@ -1,0 +1,35 @@
+body{
+    width: 1200px;
+    margin: auto;
+    font-family: Arial;
+}
+#hoofd{
+    background-image: url("../header.jpg");
+    color: white;
+    height: 80px;
+    font-size: 30px;
+    padding-left: 10px ;
+}
+#hoofd h1{
+    margin: 0px;
+}
+nav{
+    background-color: black ;
+}
+nav a{
+text-decoration: none ;
+    color: lightskyblue;
+}
+article {
+    background-color: lightgray;
+    margin: 2px;
+    padding: 0px;
+    font-size: 15px;
+}
+article h1{
+    margin: 0px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    text-decoration: underline;
+}
