@@ -1,0 +1,20 @@
+body{
+    font-size: 1.2EM;
+}
+img{
+    margin: 10px;
+    box-sizing: border-box;
+    position: relative;
+
+}
+article{
+    border: solid gray 3px;
+    margin: 10px;
+    height: 15EM;
+}
+article:nth-child(odd)  img{
+float: left;
+}
+article:nth-child(even)  img{
+float: right;
+}
