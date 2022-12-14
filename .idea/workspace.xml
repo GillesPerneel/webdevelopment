@@ -10,8 +10,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -30,16 +30,17 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Labo_10/Compostion A" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Labo_11" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\perne\Desktop\School\Github Repository\GitHub\webdevelopment\Labo_11" />
+      <recent name="C:\Users\perne\Desktop\School\Github Repository\GitHub\webdevelopment\Labo_10\personal homepage assignment\styles" />
+      <recent name="C:\Users\perne\Desktop\School\Github Repository\GitHub\webdevelopment\Labo_10" />
       <recent name="C:\Users\perne\Desktop\School\Github Repository\GitHub\webdevelopment\Labo_10\Compostion A" />
       <recent name="C:\Users\perne\Desktop\School\Github Repository\GitHub\webdevelopment\Labo_10\oefening 2 bootstrap" />
-      <recent name="C:\Users\perne\Desktop\School\Github Repository\GitHub\webdevelopment\Labo_10\beginsituatie_bootstrap5\style" />
-      <recent name="C:\Users\perne\Desktop\School\Github Repository\GitHub\webdevelopment\Labo_10" />
-      <recent name="C:\Users\perne\Documents\GitHub\webdevelopment\Labo_8" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\perne\Documents\GitHub\webdevelopment\Labo_8" />
@@ -77,7 +78,8 @@
       <workItem from="1670092450421" duration="3863000" />
       <workItem from="1670422954046" duration="1247000" />
       <workItem from="1670784710546" duration="1441000" />
-      <workItem from="1670787606160" duration="4928000" />
+      <workItem from="1670787606160" duration="6270000" />
+      <workItem from="1671023642937" duration="5126000" />
     </task>
     <servers />
   </component>
