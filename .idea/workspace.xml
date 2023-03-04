@@ -10,8 +10,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -30,20 +30,25 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Labo_11" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Labo 3 JS" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\perne\Desktop\School\Github Repository\GitHub\webdevelopment\Labo 3 JS" />
+      <recent name="C:\Users\perne\Desktop\School\Github Repository\GitHub\webdevelopment\Inhoud-versie1\styles" />
       <recent name="C:\Users\perne\Desktop\School\Github Repository\GitHub\webdevelopment\Labo_11" />
       <recent name="C:\Users\perne\Desktop\School\Github Repository\GitHub\webdevelopment\Labo_10\personal homepage assignment\styles" />
       <recent name="C:\Users\perne\Desktop\School\Github Repository\GitHub\webdevelopment\Labo_10" />
-      <recent name="C:\Users\perne\Desktop\School\Github Repository\GitHub\webdevelopment\Labo_10\Compostion A" />
-      <recent name="C:\Users\perne\Desktop\School\Github Repository\GitHub\webdevelopment\Labo_10\oefening 2 bootstrap" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\perne\Documents\GitHub\webdevelopment\Labo_8" />
+      <recent name="C:\Users\perne\Desktop\School\Github Repository\GitHub\webdevelopment\Labo 3 JS" />
+      <recent name="C:\Users\perne\Desktop\School\Github Repository\GitHub\webdevelopment\Inhoud-versie1\svg" />
+      <recent name="C:\Users\perne\Desktop\School\Github Repository\GitHub\webdevelopment\Inhoud-versie1\fotos" />
+      <recent name="C:\Users\perne\Desktop\School\Github Repository\GitHub\webdevelopment\HerhalingsOefeningen\Opdracht 1\styles" />
+      <recent name="C:\Users\perne\Desktop\School\Github Repository\GitHub\webdevelopment\HerhalingsOefeningen\Opdracht 1" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -79,7 +84,16 @@
       <workItem from="1670422954046" duration="1247000" />
       <workItem from="1670784710546" duration="1441000" />
       <workItem from="1670787606160" duration="6270000" />
-      <workItem from="1671023642937" duration="5126000" />
+      <workItem from="1671023642937" duration="5490000" />
+      <workItem from="1672924351809" duration="619000" />
+      <workItem from="1672929837097" duration="1364000" />
+      <workItem from="1673857099054" duration="956000" />
+      <workItem from="1673858392770" duration="1502000" />
+      <workItem from="1673878594848" duration="3303000" />
+      <workItem from="1673962401759" duration="3044000" />
+      <workItem from="1674027147159" duration="8817000" />
+      <workItem from="1675533931155" duration="629000" />
+      <workItem from="1677964822822" duration="326000" />
     </task>
     <servers />
   </component>
