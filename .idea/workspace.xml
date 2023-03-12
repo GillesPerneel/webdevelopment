@@ -18,6 +18,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -44,11 +52,11 @@
       <recent name="C:\Users\perne\Desktop\School\Github Repository\GitHub\webdevelopment\Labo_10" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\perne\Desktop\School\Github Repository\GitHub\webdevelopment\Labo 4 JS\Forms" />
       <recent name="C:\Users\perne\Desktop\School\Github Repository\GitHub\webdevelopment\Labo 3 JS" />
       <recent name="C:\Users\perne\Desktop\School\Github Repository\GitHub\webdevelopment\Inhoud-versie1\svg" />
       <recent name="C:\Users\perne\Desktop\School\Github Repository\GitHub\webdevelopment\Inhoud-versie1\fotos" />
       <recent name="C:\Users\perne\Desktop\School\Github Repository\GitHub\webdevelopment\HerhalingsOefeningen\Opdracht 1\styles" />
-      <recent name="C:\Users\perne\Desktop\School\Github Repository\GitHub\webdevelopment\HerhalingsOefeningen\Opdracht 1" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -93,7 +101,9 @@
       <workItem from="1673962401759" duration="3044000" />
       <workItem from="1674027147159" duration="8817000" />
       <workItem from="1675533931155" duration="629000" />
-      <workItem from="1677964822822" duration="326000" />
+      <workItem from="1677964822822" duration="1002000" />
+      <workItem from="1678279885055" duration="9586000" />
+      <workItem from="1678607279945" duration="243000" />
     </task>
     <servers />
   </component>
