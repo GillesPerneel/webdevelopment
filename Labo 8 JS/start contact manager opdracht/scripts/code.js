@@ -5,7 +5,7 @@ const bewaarBewerktePersoon = () => {
     console.log("Klik op de knop bewaar");
 
     // valideer alle input data en controleer of er geen errors meer zijn
-    //valideer();
+    valideer();
     // indien ok, bewaar de ingegeven data.
     let invalid = document.querySelectorAll(".invalid");
     if(invalid.length === 0 ){
@@ -46,14 +46,19 @@ const bewerkNieuwePersoon = () => {
 };
 
 const changeListener = (event) =>{
-    let index = event.target.index;
-    let persoon = personen[index];
+    if(event.target.tagName === 'OPTION'){
+        let index = event.target.index;
+        let persoon = personen[index];
 
-    document.querySelector('#txtVoornaam').value = persoon.voornaam;
-    document.querySelector('#txtFamilienaam').value = persoon.famillienaam;
-    document.querySelector('#txtGeboorteDatum').value = persoon.geboortedatum;
-    document.querySelector('#txtEmail').value = persoon.email;
-    document.querySelector('#txtAantalKinderen').value = persoon.aantalkinderen;
+        document.querySelector('#txtVoornaam').value = persoon.voornaam;
+        document.querySelector('#txtFamilienaam').value = persoon.famillienaam;
+        document.querySelector('#txtGeboorteDatum').value = persoon.geboortedatum;
+        document.querySelector('#txtEmail').value = persoon.email;
+        document.querySelector('#txtAantalKinderen').value = persoon.aantalkinderen;
+    }
+    else {
+        console.log("u heeft op de list box zelf gedrukt niet op een optie");
+    }
 }
 
 
