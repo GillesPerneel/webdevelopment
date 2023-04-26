@@ -24,7 +24,7 @@ const restoreSliderValues = () => {
 const storeSwatches = () => {
     // bouw een array met kleurinfo objecten
     let lijstAlleSwatches = document.querySelectorAll('.swatch');
-    let alleswatchitem = document.querySelector('#swatchComponents');
+
 
 
  let kleurinfo = [];
@@ -47,9 +47,9 @@ const restoreSwatches = () => {
    if(opgeslagenSwatches === null){
        console.log("er is niets opgeslagen");
    } else {
-       let opgeslagenSwatchinText = JSON.parse(opgeslagenSwatches);
-       for(let i = 1; i < opgeslagenSwatchinText.length ; i++){
-           let swatch = opgeslagenSwatchinText[i];
+       let opgeslagenSwatchsinText = JSON.parse(opgeslagenSwatches);
+       for(let i = 1; i < opgeslagenSwatchsinText.length ; i++){
+           let swatch = opgeslagenSwatchsinText[i];
            let red = swatch.red;
            let green = swatch.green;
            let blue = swatch.blue;

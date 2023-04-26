@@ -9,6 +9,8 @@ const bewaarBewerktePersoon = () => {
     // indien ok, bewaar de ingegeven data.
     let invalid = document.querySelectorAll(".invalid");
     if(invalid.length === 0 ){
+
+        let lstPersonen = document.querySelector('#lstPersonen');
         let persoon = {};
             //nieuw persoon
                 persoon.voornaam = document.querySelector('#txtVoornaam').value,
@@ -22,7 +24,11 @@ const bewaarBewerktePersoon = () => {
             let select = document.querySelector('#lstPersonen');
             let node = document.createElement('option');
             node.textContent = persoon.voornaam + " " + persoon.famillienaam;
+        if(lstPersonen.selectedIndex !== -1){
+            select.replaceChild(node , select.childNodes[lstPersonen.selectedIndex]);
+        } else {
             select.appendChild(node);
+        }
     }
     else {
         console.log("Er is een fout ingegeven")
@@ -31,8 +37,6 @@ const bewaarBewerktePersoon = () => {
         // een bestaande persoon in de lijst passen we aan
 
     // zorg ervoor dat de naam en voornaam ook aangepast en/of zichtbaar zijn in de lijst na updaten
-
-
 };
 
 // Event listener (btnNieuw click)
@@ -42,19 +46,20 @@ const bewerkNieuwePersoon = () => {
     for(let i = 0 ; i < inputs.length ; i++){
         inputs[i].value = "";
     }
+
     // Zet de user interface klaar om de gegevens van een nieuwe persoon in te voeren
 };
 
 const changeListener = (event) =>{
     if(event.target.tagName === 'OPTION'){
-        let index = event.target.index;
+        index = event.target.index;
         let persoon = personen[index];
-
         document.querySelector('#txtVoornaam').value = persoon.voornaam;
         document.querySelector('#txtFamilienaam').value = persoon.famillienaam;
         document.querySelector('#txtGeboorteDatum').value = persoon.geboortedatum;
         document.querySelector('#txtEmail').value = persoon.email;
         document.querySelector('#txtAantalKinderen').value = persoon.aantalkinderen;
+
     }
     else {
         console.log("u heeft op de list box zelf gedrukt niet op een optie");
