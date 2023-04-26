@@ -24,14 +24,15 @@ const saveSwatch = () => {
 
     // bewaar kleurinfo van alle swatches in local storage
     storeSwatches();
+    setColorPickerFromSwatch();
 };
 
 const setColorPickerFromSwatch = (event) => {
-    if (event.target.className=="swatch") {
+    if (event.target.className === "swatch") {
         let swatch = event.target;
-        document.getElementById("sldRed").value = rgb.red;
-        document.getElementById("sldGreen").value = rgb.green;
-        document.getElementById("sldBlue").value = rgb.blue;
+        document.getElementById("sldRed").value = event.target.dataset.red;
+        document.getElementById("sldGreen").value = event.target.dataset.green;
+        document.getElementById("sldBlue").value = event.target.dataset.blue;
 
 
         // helaas triggeren de .value wijzigingen niet automatisch
