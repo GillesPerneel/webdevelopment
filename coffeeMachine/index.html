@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Coffee Machine</title>
+</head>
+<body>
+<h1>Coffee Machine</h1>
+<form>
+    <label for="type">Type:</label>
+    <select id="type">
+        <option value="espresso">Espresso</option>
+        <option value="cappuccino">Cappuccino</option>
+        <option value="latte">Latte</option>
+    </select><br>
+    <label for="size">Size:</label>
+    <select id="size">
+        <option value="small">Small</option>
+        <option value="medium">Medium</option>
+        <option value="large">Large</option>
+    </select><br>
+    <label for="quantity">Quantity:</label>
+    <input type="number" id="quantity" min="1" value="1"><br>
+    <button type="submit">Order</button>
+    <button type="button" onclick="resetTotalPrice()">Reset</button>
+</form>
+<p>Total Price: $<span id="total-price"></span></p>
+<p>Total Price Today: $<span id="total-price-Today"></span></p>
+<h2>Orders</h2>
+<ul id="orders-list"></ul>
+<script src="coffee-machine.js"></script>
+</body>
+</html>
